@@ -38,12 +38,28 @@ Contents						*codeFrame-Contents*
 ==============================================================================
 1. Introduction						*codeFrame-Introduction*
 
-CodeFrame is a vim plugin that makes the skeleton of programming language,
+CodeFrame is a vim plugin that makes the skeleton of programming languages,
 such as c and c++, java, php, python, perl, ruby, html, bash.
 
 유투브 시연 영상 주소 첨부:
 
-codeFrame 디렉토리의 tree 구조 설명 추가하기
+codeFrame
+├── doc
+│   └── codeFrame.txt	-> codeFrame's manual
+├── Languages	 	-> The skeleton of programming languages
+│   ├── bash.txt
+│   ├── c.txt
+│   ├── c++.txt
+│   ├── html.txt
+│   ├── java.txt
+│   ├── perl.txt
+│   ├── php.txt
+│   ├── python.txt
+│   └── ruby.txt
+├── LICENSE
+├── plugin		-> vim plugin
+│   └── codeFrame.vim
+└── README.md
 
 ==============================================================================
 2. Installation						*codeFrame-Installation*
