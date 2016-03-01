@@ -5,7 +5,7 @@
 " | (_| (_) | (_| |  __/ |  | | | (_| | | | | | |  __/ 
 "  \___\___/ \__,_|\___|_|  |_|  \__,_|_| |_| |_|\___|	v1.0
 "
-" CodeFrame is a vim plugin that makes the skeleton of programming language. 
+" CodeFrame is a vim plugin that makes the skeleton of programming languages. 
 " Copyright (C) 2016  Hyun-gwan Seo <westporch@gmail.com>.
 " 
 " This program is free software; you can redistribute it and/or modify
