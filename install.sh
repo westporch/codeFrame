@@ -2,7 +2,7 @@
 
 vim_path="/usr/bin/vim"
 vim_nox_path="/usr/bin/vim.nox"
-vim_plugin_path="~/.vim/plugin"
+vim_plugin_path="$HOME/.vim/plugin"
 git_path="/usr/bin/git"
 
 function vim_install_check()
