@@ -5,12 +5,32 @@ vim_nox_path="/usr/bin/vim.nox"
 vim_plugin_path="$HOME/.vim/plugin"
 git_path="/usr/bin/git"
 
+vim_path_for_redhat_series="/bin/vim"
+git_path_for_redhat_series="/bin/git"
+
+function vim_alias_setting_check()
+{
+	vim_alias=`find ~ -name ".bashrc" | xargs grep "alias vi="`
+	if [ -z "$vim_alias" ]; then
+		cat 'alias vi=vim' >> ~/.bashrc	
+	fi
+}
+
 function vim_install_check()
 {
 	if [ ! -f "$vim_path" ]; then
 		apt-get -y install vim
 	fi
 }
+
+function vim_install_check_for_redhat_series()
+{
+	if [ ! -f "$vim_path_for_redhat_series" ]; then
+		yum -y install vim
+	fi
+	set_alias_for_vim
+}
+
 
 #Vi IMproved - enhanced vi editor - with scripting languages support
 function vim_nox_install_check()
@@ -26,7 +46,13 @@ function git_install_check()
 	if [ ! -f $git_path ]; then
 		apt-get -y install git
 	fi
+}
 
+function git_install_check_for_redhat_series()
+{
+	if [ ! -f $git_path_for_redhat_series ]; then
+		yum -y install git
+	fi
 }
 
 function install_codeFrame()
@@ -42,8 +68,17 @@ function install_codeFrame()
 function install_codeFrame_for_debian_series()
 {
 	vim_install_check
+	vim_alias_setting_check
 	vim_nox_install_check
 	git_install_check
+	install_codeFrame
+}
+
+function install_codeFrame_for_redhat_series()
+{
+	vim_install_check_for_redhat_series
+	vim_alias_setting_check
+	git_install_check_for_redhat_series
 	install_codeFrame
 }
 
@@ -54,5 +89,7 @@ case $linux_type in
 	raspbian) install_codeFrame_for_debian_series ;;
 	kali) install_codeFrame_for_debian_series ;;
 	ubuntu) install_codeFrame_for_debian_series ;;
-
+	mint) install_codeFrame_for_debian_series ;;
+	centos) install_codeFrame_for_redhat_series ;;
+	fedora) install_codeFrame_for_redhat_series ;;
 esac
