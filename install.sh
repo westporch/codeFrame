@@ -12,7 +12,7 @@ function vim_alias_setting_check()
 {
 	vim_alias=`find ~ -name ".bashrc" | xargs grep "alias vi="`
 	if [ -z "$vim_alias" ]; then
-		echo "alias vi=vim" >> ~/.bashrc	
+		echo "alias vi='vim'" >> ~/.bashrc	
 	fi
 }
 
