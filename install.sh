@@ -28,7 +28,7 @@ function vim_install_check_for_redhat_series()
 	if [ ! -f "$vim_path_for_redhat_series" ]; then
 		yum -y install vim
 	fi
-	set_alias_for_vim
+	vim_alias_setting_check
 }
 
 
