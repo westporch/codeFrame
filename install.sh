@@ -14,8 +14,6 @@ function vim_alias_setting_check()
 	if [ -z "$vim_alias" ]; then
 		echo "alias vi='vim'" >> ~/.bashrc	
 	fi
-
-	source ~/.bashrc
 }
 
 function vim_install_check()
@@ -95,3 +93,5 @@ case $linux_type in
 	centos) install_codeFrame_for_redhat_series ;;
 	fedora) install_codeFrame_for_redhat_series ;;
 esac
+
+source ~/.bashrc	# ~/.bashrc의 변경 내용을 반영함
