@@ -14,6 +14,8 @@ function vim_alias_setting_check()
 	if [ -z "$vim_alias" ]; then
 		echo "alias vi='vim'" >> ~/.bashrc	
 	fi
+
+	source ~/.bashrc
 }
 
 function vim_install_check()
