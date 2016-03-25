@@ -3,22 +3,22 @@ CodeFrame is a vim plugin that makes the skeleton of programming language,
 such as c and c++, java, php, python, perl, ruby, html, bash.
 
 codeFrame <br>
-├── doc
-│   └── codeFrame.txt	-> codeFrame's manual
-├── Languages	 	-> The skeleton of programming languages
-│   ├── bash.txt
-│   ├── c.txt
-│   ├── c++.txt
-│   ├── html.txt
-│   ├── java.txt
-│   ├── perl.txt
-│   ├── php.txt
-│   ├── python.txt
-│   └── ruby.txt
-├── LICENSE
-├── plugin		-> vim plugin
-│   └── codeFrame.vim
-└── README.md
+├── doc <br>
+│   └── codeFrame.txt	-> codeFrame's manual <br>
+├── Languages	 	-> The skeleton of programming languages <br>
+│   ├── bash.txt <br>
+│   ├── c.txt	<br>
+│   ├── c++.txt <br>
+│   ├── html.txt <br>
+│   ├── java.txt <br>
+│   ├── perl.txt <br>
+│   ├── php.txt <br>
+│   ├── python.txt <br>
+│   └── ruby.txt <br>
+├── LICENSE	<br>
+├── plugin		-> vim plugin <br>
+│   └── codeFrame.vim <br>
+└── README.md <br>
 
 # 1. Demo
 
