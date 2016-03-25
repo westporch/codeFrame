@@ -57,8 +57,23 @@ root@RaspberryPi:~# wget https://raw.githubusercontent.com/westporch/codeFrame/m
 root@RaspberryPi:~# chmod 655 install.sh
 root@RaspberryPi:~# ./install.sh
 ```
+# 3. Usage
 
-# 3. Support
+You just create a  programming language file through vim.
+
+```sh
+vi test.c
+vi test.cpp
+vi test.java
+vi test.php
+vi test.py
+vi test.pl
+vi test.rb
+vi test.html
+vi test.sh
+```
+
+# 4. Support
 
 | Distribution | Distribution version | Support |
 | :----------: | :----------: | :-----: |
@@ -69,3 +84,20 @@ root@RaspberryPi:~# ./install.sh
 | [Mint](https://www.linuxmint.com/) | 17.3 | OK |
 | [CentOS](https://www.centos.org/) | 7 (1511) | OK |
 | [Fedora](https://getfedora.org/) | 23 (Workstation Edition) | OK |
+
+# 5. Contribution
+
+If you have any idea to improve codeFrame, please provide me with your feedback.
+
+Issues: https://github.com/westporch/codeFrame/issues
+Repository: https://github.com/westporch/codeFrame
+
+# 6. Bugs
+
+Report coreFrame bugs to github's issues https://github.com/westporch/codeFrame/issues
+
+# 7. Changlelog
+
+| Version | Release date | Contents |
+| :-----: | :----------: | :------: |
+| v1.0    | 2016-03-25   | Initial release | 
