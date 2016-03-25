@@ -57,3 +57,15 @@ root@RaspberryPi:~# wget https://raw.githubusercontent.com/westporch/codeFrame/m
 root@RaspberryPi:~# chmod 655 install.sh
 root@RaspberryPi:~# ./install.sh
 ```
+
+# 3. Support
+
+| Distribution | Distribution version | Support |
+| :----------: | :----------: | :-----: |
+| [Debian](http://debian.org) | jessie (8.3)| OK |
+| [Raspbian](https://www.raspbian.org/) | jessie (8) | OK |
+| [Kali](https://www.kali.org/) | 2016.1 | OK |
+| [Ubuntu](http://http://www.ubuntu.com/) | 14.04.4 | OK |
+| [Mint](https://www.linuxmint.com/) | 17.3 | OK |
+| [CentOS](https://www.centos.org/) | 7 (1511) | OK |
+| [Fedora](https://getfedora.org/) | 23 (Workstation Edition) | OK |
