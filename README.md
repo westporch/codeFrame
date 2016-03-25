@@ -90,6 +90,7 @@ vi test.sh
 If you have any idea to improve codeFrame, please provide me with your feedback.
 
 Issues: https://github.com/westporch/codeFrame/issues
+
 Repository: https://github.com/westporch/codeFrame
 
 # 6. Bugs
