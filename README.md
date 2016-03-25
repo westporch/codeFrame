@@ -31,3 +31,9 @@ CodeFrame is a vim plugin that makes the skeleton of programming language.
 ![alt text](https://lh3.googleusercontent.com/-EELi_tlkLCM/VtUDVELXtUI/AAAAAAAACfE/xYOOkT4r3N0fvab4PHSRJ42g-WzpvwcpACCo/s640-Ic42/9.%2BcodeFrame%2B-%2Bbash.gif "bash")
 
 # 2. Installation
+
+```bash
+wget https://raw.githubusercontent.com/westporch/codeFrame/master/install.sh
+chmod 655 install.sh
+./install.sh
+```
