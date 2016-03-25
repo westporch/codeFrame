@@ -41,7 +41,7 @@ Contents						*codeFrame-Contents*
 CodeFrame is a vim plugin that makes the skeleton of programming languages,
 such as c and c++, java, php, python, perl, ruby, html, bash.
 
-유투브 시연 영상 주소 첨부:
+Youtube video ->  https://youtu.be/jpayFgP-Y1M
 
 codeFrame
 ├── doc
