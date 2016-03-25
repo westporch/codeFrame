@@ -65,7 +65,7 @@ root@RaspberryPi:~# ./install.sh
 | [Debian](http://debian.org) | jessie (8.3)| OK |
 | [Raspbian](https://www.raspbian.org/) | jessie (8) | OK |
 | [Kali](https://www.kali.org/) | 2016.1 | OK |
-| [Ubuntu](http://http://www.ubuntu.com/) | 14.04.4 | OK |
+| [Ubuntu](http://www.ubuntu.com/) | 14.04.4 | OK |
 | [Mint](https://www.linuxmint.com/) | 17.3 | OK |
 | [CentOS](https://www.centos.org/) | 7 (1511) | OK |
 | [Fedora](https://getfedora.org/) | 23 (Workstation Edition) | OK |
