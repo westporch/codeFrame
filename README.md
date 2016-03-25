@@ -32,7 +32,7 @@ CodeFrame is a vim plugin that makes the skeleton of programming language.
 
 # 2. Installation
 
-```bash
+```sh
 root@RaspberryPi:~# wget https://raw.githubusercontent.com/westporch/codeFrame/master/install.sh
 root@RaspberryPi:~# chmod 655 install.sh
 root@RaspberryPi:~# ./install.sh
