@@ -1,5 +1,5 @@
 # codeFrame
-[CodeFrame](https://youtu.be/jpayFgP-Y1M) is a vim plugin that makes the skeleton of programming language,
+[CodeFrame](https://www.youtube.com/watch?v=jpayFgP-Y1M) is a vim plugin that makes the skeleton of programming language,
 such as c and c++, java, php, python, perl, ruby, html, bash.
 
 codeFrame <br>
@@ -21,7 +21,7 @@ codeFrame <br>
 └── README.md <br>
 
 # 1. Demo
-[Youtube video demo](https://youtu.be/jpayFgP-Y1M)
+[Youtube video demo](https://www.youtube.com/watch?v=jpayFgP-Y1M)
 
 ## 1-1. c
 ![alt text](https://lh3.googleusercontent.com/-zOrMjUJy9xk/VtUDTqMdetI/AAAAAAAACfE/lC4o9uRjGj8PvdbcZXlS7occUIoMuyg2ACCo/s640-Ic42/1.%2BcodeFrame%2B-%2Bc.gif "c")
