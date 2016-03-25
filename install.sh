@@ -5,9 +5,6 @@ vim_nox_path="/usr/bin/vim.nox"
 vim_plugin_path="$HOME/.vim/plugin"
 git_path="/usr/bin/git"
 
-vim_path_for_redhat_series="/bin/vim"
-git_path_for_redhat_series="/bin/git"
-
 function vim_alias_setting_check()
 {
 	vim_alias=`find ~ -name ".bashrc" | xargs grep "alias vi="`
@@ -25,7 +22,7 @@ function vim_install_check()
 
 function vim_install_check_for_redhat_series()
 {
-	if [ ! -f "$vim_path_for_redhat_series" ]; then
+	if [ ! -f "$vim_path" ]; then
 		yum -y install vim
 	fi
 	vim_alias_setting_check
@@ -50,7 +47,7 @@ function git_install_check()
 
 function git_install_check_for_redhat_series()
 {
-	if [ ! -f $git_path_for_redhat_series ]; then
+	if [ ! -f $git_path ]; then
 		yum -y install git
 	fi
 }
