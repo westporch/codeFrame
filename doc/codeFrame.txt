@@ -64,8 +64,9 @@ codeFrame
 ==============================================================================
 2. Installation						*codeFrame-Installation*
 
-cd ~/.vim/plugin
-git clone https://github.com/westporch/codeFrame.git
+wget https://raw.githubusercontent.com/westporch/codeFrame/master/install.sh
+chmod 655 install.sh
+./install.sh
 
 ==============================================================================
 3. Usage							*codeFrame-Usage*
@@ -96,7 +97,7 @@ Report coreFrame bugs to github's issues https://github.com/westporch/codeFrame/
 ==============================================================================
 6. Changelog						*codeFrame-Changelog*
 
-v1.0	2016-03-0x
+v1.0	2016-03-25
 	* Initial release.
 
 ==============================================================================
