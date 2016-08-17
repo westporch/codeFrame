@@ -3,7 +3,7 @@
 "   ___ ___   __| | ___| |__ _ __ __ _ _ __ ___   ___ 
 "  / __/ _ \ / _` |/ _ \  __| '__/ _` | '_ ` _ \ / _ \   
 " | (_| (_) | (_| |  __/ |  | | | (_| | | | | | |  __/ 
-"  \___\___/ \__,_|\___|_|  |_|  \__,_|_| |_| |_|\___|	v1.0
+"  \___\___/ \__,_|\___|_|  |_|  \__,_|_| |_| |_|\___|	v1.1
 "
 " CodeFrame is a vim plugin that makes the skeleton of programming languages. 
 " Copyright (C) 2016  Hyun-gwan Seo <westporch@gmail.com>.
@@ -89,6 +89,5 @@ EOF
         call search(':---:', "b")
         call Set_cursor_position()
     endif
-
 
 endif               
