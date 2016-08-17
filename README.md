@@ -101,4 +101,4 @@ Report coreFrame bugs to github's issues https://github.com/westporch/codeFrame/
 
 | Version | Release date | Contents |
 | :-----: | :----------: | :------: |
-| v1.0    | 2016-03-25   | Initial release | 
+| [v1.0](https://github.com/westporch/codeFrame/raw/master/release/codeFrame-v1.0.tar.xz) | 2016-03-25   | Initial release | 
