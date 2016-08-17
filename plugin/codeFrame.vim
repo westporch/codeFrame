@@ -82,7 +82,13 @@ EOF
         call Set_cursor_position() 
     elseif file_type == "md"
         silent 0r !cat ~/.vim/plugin/codeFrame/Languages/markdown.txt
+        call search('이름', "b")
+        call Set_cursor_position()
+    elseif file_type == "markdown"
+        silent 0r !cat ~/.vim/plugin/codeFrame/Languages/markdown.txt
+        call search('이름', "b")
         call Set_cursor_position()
     endif
+
 
 endif               
