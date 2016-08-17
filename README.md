@@ -77,7 +77,7 @@ vi test.sh
 
 | Distribution | Distribution version | Support |
 | :----------: | :----------: | :-----: |
-| [Debian](http://debian.org) | jessie (8.3)| OK |
+| [Debian](http://debian.org) | jessie (8.3 ~ 8.5)| OK |
 | [Raspbian](https://www.raspbian.org/) | jessie (8) | OK |
 | [Kali](https://www.kali.org/) | 2016.1 | OK |
 | [Ubuntu](http://www.ubuntu.com/) | 14.04.4 | OK |
