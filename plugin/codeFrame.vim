@@ -80,7 +80,9 @@ EOF
     elseif file_type == "sh"
         silent 0r !cat ~/.vim/plugin/codeFrame/Languages/bash.txt
         call Set_cursor_position() 
-        
+    elseif file_type == "md"
+        silent 0r !cat ~/.vim/plugin/codeFrame/Languages/markdown.txt
+        call Set_cursor_position()
     endif
 
 endif               
