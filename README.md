@@ -3,28 +3,28 @@
 such as c and c++, java, php, python, perl, ruby, html, bash, markdown.
 
 ```
-codeFrame <br>
-├── LICENSE <br>
-├── Languages   -> The skeleton of programming languages <br>
-│   ├── bash.txt <br>
-│   ├── c++.txt <br>
-│   ├── c.txt <br>
-│   ├── html.txt <br>
-│   ├── java.txt <br>
-│   ├── markdown.txt <br>
-│   ├── perl.txt <br>
-│   ├── php.txt <br>
-│   ├── python.txt <br>
-│   └── ruby.txt <br>
-├── README.md <br>
-├── doc <br>
-│   └── codeFrame.txt   -> codeFrame's manual <br>
-├── install.sh <br>
-├── plugin <br>
-│   └── codeFrame.vim -> vim plugin <br>
-└── release <br>
-    └── codeFrame-v1.0.tar.xz <br>
-    └── codeFrame-v1.1.tar.xz <br>
+codeFrame 
+├── LICENSE 
+├── Languages   -> The skeleton of programming languages 
+│   ├── bash.txt 
+│   ├── c++.txt 
+│   ├── c.txt 
+│   ├── html.txt 
+│   ├── java.txt 
+│   ├── markdown.txt 
+│   ├── perl.txt 
+│   ├── php.txt 
+│   ├── python.txt 
+│   └── ruby.txt 
+├── README.md 
+├── doc 
+│   └── codeFrame.txt   -> codeFrame's manual 
+├── install.sh 
+├── plugin 
+│   └── codeFrame.vim -> vim plugin 
+└── release 
+    └── codeFrame-v1.0.tar.xz 
+    └── codeFrame-v1.1.tar.xz
 ```
 
 # 1. Demo
