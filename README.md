@@ -1,24 +1,29 @@
 # codeFrame
 [CodeFrame](https://www.youtube.com/watch?v=jpayFgP-Y1M) is a vim plugin that makes the skeleton of programming language,
-such as c and c++, java, php, python, perl, ruby, html, bash.
+such as c and c++, java, php, python, perl, ruby, html, bash, markdown.
 
 codeFrame <br>
+├── LICENSE <br>
+├── Languages   -> The skeleton of programming languages <br>
+│   ├── bash.txt <br>
+│   ├── c++.txt <br>
+│   ├── c.txt <br>
+│   ├── html.txt <br>
+│   ├── java.txt <br>
+│   ├── markdown.txt <br>
+│   ├── perl.txt <br>
+│   ├── php.txt <br>
+│   ├── python.txt <br>
+│   └── ruby.txt <br>
+├── README.md <br>
 ├── doc <br>
-│   └── codeFrame.txt	-> codeFrame's manual <br>
-├── Languages	 	-> The skeleton of programming languages <br>
-│   ├── bash.txt <br>
-│   ├── c.txt	<br>
-│   ├── c++.txt <br>
-│   ├── html.txt <br>
-│   ├── java.txt <br>
-│   ├── perl.txt <br>
-│   ├── php.txt <br>
-│   ├── python.txt <br>
-│   └── ruby.txt <br>
-├── LICENSE	<br>
-├── plugin		-> vim plugin <br>
-│   └── codeFrame.vim <br>
-└── README.md <br>
+│   └── codeFrame.txt   -> codeFrame's manual <br>
+├── install.sh <br>
+├── plugin <br>
+│   └── codeFrame.vim -> vim plugin <br>
+└── release <br>
+    └── codeFrame-v1.0.tar.xz <br>
+    └── codeFrame-v1.1.tar.xz <br>
 
 # 1. Demo
 [Youtube video demo](https://www.youtube.com/watch?v=jpayFgP-Y1M)
@@ -102,3 +107,4 @@ Report coreFrame bugs to github's issues https://github.com/westporch/codeFrame/
 | Version | Release date | Contents |
 | :-----: | :----------: | :------: |
 | [v1.0](https://github.com/westporch/codeFrame/raw/master/release/codeFrame-v1.0.tar.xz) | 2016-03-25   | Initial release | 
+| v1.1 | 2016-08-17 | Support markdown skeleton (.md, .markdown) |
